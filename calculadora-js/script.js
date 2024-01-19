@@ -104,6 +104,7 @@ buttons.forEach((button) => {
       setOperator(buttonText);
     } else if (buttonText === "=") {
       calculate();
+      
     } else if (buttonText === "C") {
       clearCalculator();
     } else if (buttonText === "±") {
